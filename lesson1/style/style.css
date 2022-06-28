@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&display=swap');
+p{
+    font-family: 'Inconsolata', monospace;
+    color: lime;
+    text-align: center;
+}
+span{
+    font-family: 'Inconsolata', monospace;
+}
+h1{
+    font-family: 'Inconsolata', monospace;
+}
+
+#firstParagraph{
+    color: darkcyan;
+}
+.paragraph{
+    color: red;
+}
+.text{
+    /* цвет шрифта */
+    color: blue;
+    /* размер шрифта */
+    font-size: 25px;
+    /* толщина шрифта */
+    font-weight: 700;
+    /* верхний регистр */
+    text-transform: uppercase;
+    /* нижний регистр */
+    text-transform: lowercase;
+    /* подчеркивание текста */
+    text-decoration: underline;
+    /* линия сверху текста */
+    text-decoration: overline;
+    /* перечеркнутый текст */
+    text-decoration: line-through;
+    /* межстрочный интервал */
+    line-height: 1.5;
+    /* расстояние между словами */
+    word-spacing: 30px;
+    /* межбуквенный интервал */
+    letter-spacing: 10px;
+    /* выравнивание текста */
+    text-align: center;
+}
+.spanColor{
+    color: brown;
+}

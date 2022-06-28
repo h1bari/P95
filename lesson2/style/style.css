@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&display=swap');
+
+*{
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.margin-block{
+    height: 50px;
+    background: #369;
+    margin-bottom: 150px;
+}
+.paddingBlock{
+    /* ширина */
+    width: 400px;
+    /* высота */
+    height: 400px;
+    /* фон */
+    background: rgb(135, 153, 57);
+    /* выравнивает по центру только блочные элементы*/
+    margin: auto;
+    font-size: 25px;
+    padding: 25px 50px;
+}
+.test-bg{
+    height: 700px;
+    background: url("../images/bg.jpg") no-repeat 30px bottom;
+    /* cover  заполняет картинкой весь блок */
+    /* background-size: cover; */
+    /* contain пытается вместить изображение по высоте */
+    background-size: 30%;
+    /* установка позиции по оси х (px % center top bottom left right)*/
+    /* background-position-x: 30px; */
+
+    /* установка позиции по оси y (px % center top bottom left right)*/
+    /* background-position-y: 30px; */
+
+    /* позволяет картинке не дублироваться */
+    background-repeat: no-repeat;
+
+    /* позволяет картинке  дублироваться (по умолчанию)*/
+    background-repeat: repeat;
+
+    /* позволяет картинке  дублироваться по оси Х*/
+    background-repeat: repeat-x;
+
+     /* позволяет картинке  дублироваться по оси Y*/
+     /* background-repeat: repeat-y; */
+}

@@ -26,11 +26,11 @@
 }
 .test-bg{
     height: 700px;
-    background: url("../images/bg.jpg") no-repeat 30px bottom;
+    background: url("../images/bg.jpg") no-repeat bottom;
     /* cover  заполняет картинкой весь блок */
     /* background-size: cover; */
     /* contain пытается вместить изображение по высоте */
-    background-size: 30%;
+    background-size: cover;
     /* установка позиции по оси х (px % center top bottom left right)*/
     /* background-position-x: 30px; */
 
@@ -38,14 +38,22 @@
     /* background-position-y: 30px; */
 
     /* позволяет картинке не дублироваться */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 
     /* позволяет картинке  дублироваться (по умолчанию)*/
-    background-repeat: repeat;
+    /* background-repeat: repeat; */
 
     /* позволяет картинке  дублироваться по оси Х*/
-    background-repeat: repeat-x;
+    /* background-repeat: repeat-x; */
 
      /* позволяет картинке  дублироваться по оси Y*/
      /* background-repeat: repeat-y; */
+}
+.div{
+    width: 100px;
+    height: 100px;
+    background: #000;
+    margin: 20px;
+    /* делает блоки в один ряд */
+    display: inline-block;
 }

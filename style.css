@@ -7,9 +7,16 @@
     text-decoration: none;
     list-style: none;
 }
-.menu{
-    margin-left: 30%;
-    margin-top: 150px;
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.wrap img{
+    width: 150px;
+    margin-bottom: 100px;
 }
 .list-menu{
     display: inline-block;

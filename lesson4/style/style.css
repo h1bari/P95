@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&display=swap');
+
+* {
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* .testDiv{
+    width: 400px;
+    height: 400px;
+    background: rgb(196, 194, 194);
+    position: relative;
+    transition: 1s ease-in-out;
+} */
+/* .testInside{
+
+    width: 0;
+    height: 0;
+    background: red;
+    display: none;
+    position: absolute;
+    right: -150px;
+    transition: 1s ease-in-out;
+}
+.testDiv:hover .testInside{
+
+    display: block;
+    width: 150px;
+    height: 150px;
+    transition: 1s;
+} */
+/* .wrap {
+    border: 2px solid green;
+    height: 500px;
+    padding: 20px 0;
+    margin: 10px;
+    display: flex;
+    /* крайние по краям */
+    /* justify-content: space-between; */
+    /* крайние с половиной растояния отступов */
+    /* justify-content: space-around; */
+    /* по умолчанию  - в начале flexbox*/
+    /* justify-content: flex-start; */
+    /* в конце flexbox */
+    /* justify-content: flex-end; */
+    /* по вертикали  по центру */
+    /* align-items: center; */
+    /* по вертикали внизу flexbox */
+    /* align-items: flex-end; */
+    /* по умолчанию */
+    /* align-items: stretch; */
+    /* изменения главной оси */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+/* } */
+
+/* .item {
+    border: 2px solid red;
+    width: 50px;
+    height: 50px;
+} */
+
+/* .one {
+    background: gray;
+    border: 2px solid greenyellow;
+    order: 4;
+} */
+
+/* .two {
+    order: 5;
+} */
+
+/* .three {
+    order: 1;
+    /* align-self: flex-start;
+    flex-basis: 30%; 
+    
+} */
+
+/* .four {
+    order: 2;
+    /* align-self: baseline; 
+} */
+
+/*.five {
+    order:3;
+    /* flex-basis: 30%;
+    align-self: flex-end; 
+} */
+
+
+
+.product-section{
+    padding: 80px 0;
+}
+.block-heading{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+.goods-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.good-item{
+    width: 350px;
+    border: 1px solid black;
+    padding: 15px 20px;
+    border-radius: 15px;
+    transition: 1s ease-in;
+    margin-bottom: 20px;
+}
+.item-img img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.item-description,.item-button,.item-price{
+    margin-top: 25px;
+}
+.item-description p{
+    font-size: 19px;
+    text-align: center;
+    font-weight: 700;
+}
+.item-button{
+    display: flex;
+    justify-content: center;
+}
+.item-button a{
+    background: #8ce7f3;
+    padding: 15px 70px;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.item-button a::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0;
+    background: #d4d175;
+    left: 0;
+    top: 0;
+    transition: .5s ease-out;
+    opacity: .5;
+}
+.item-button a:hover{
+    color: white;
+}
+.item-button a:hover::before{
+    width: 100%;
+    transition: .5s ease-out;
+}
+.item-price p{
+    text-align: right;
+    font-size: 19px;
+}
+.good-item:hover *{
+    /* opacity: 0; */
+    visibility: hidden;
+}
+.good-item:hover{
+    background: url(../images/bg.jpg) 45%;
+    background-size: cover;
+    transition: 2s;
+}
+.good-item:hover a{
+    visibility:visible;
+}

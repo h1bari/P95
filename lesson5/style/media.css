@@ -1,0 +1,26 @@
+/* от значения max-width и ниже */
+/* @media screen and (max-width: 1000px) { 
+    .test-block{
+        background: red;
+        transition: 1s;
+    }
+} */
+/* от значения max-width и выше */
+/* @media screen and (min-width: 500px) {
+    .wrap{
+        background: gray;
+    }
+} */
+/* @media screen and (max-width: 1179px) { 
+
+}
+@media screen and (max-width: 768px) { 
+    .menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 615px) { 
+    .menu{
+        display: block;
+    }
+} */

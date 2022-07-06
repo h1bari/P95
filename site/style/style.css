@@ -30,13 +30,13 @@ section{
     align-items: center;
 }
 .logo img{
-    width: 70px;
+    width: 100px;
 }
+/* MENU */
 .menu li{
     display: inline-block;
     margin: 0 15px;
 }
-
 .menu li a{
     color: #000;
     font-size: 18px;
@@ -45,6 +45,47 @@ section{
 .menu li a:hover{
     color: brown;
 }
+.burger{
+    width: 50px;
+    height: 30px;
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    right: 50px;
+    top: 50px;
+    z-index: 10;
+}
+.burger .line{
+    height: 5px;
+    background: #000;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    transition: 0.2s ease-in-out;
+}
+.burger-active .line{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.burger-active .line:nth-child(2){
+    background: none;
+}
+.burger-active .line:nth-child(1){
+    transform: rotate(45deg);
+}
+.burger-active .line:nth-child(3){
+    transform: rotate(-45deg);
+}
+
+
+
+/* END MENU */
+
+
+
 .main-heading{
     text-align: center;
     margin-top: 150px;
@@ -57,7 +98,7 @@ section{
     padding: 60px;
     margin: 130px auto 0;
     text-align: center;
-    background: #F6FBF9;
+    background: #a2eed0;
 }
 .form-head .form-heading{
     font-size: 55px;

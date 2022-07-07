@@ -136,3 +136,70 @@ section{
 .have span{
     text-decoration: underline;
 }
+
+
+/* Gallery PAGE */
+
+.gallery-section,.carousel-section{
+    padding: 100px 20px;
+    background: -moz-linear-gradient(left, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+background: -webkit-linear-gradient(left, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+background: linear-gradient(to right, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+}
+#gallery{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#gallery a{
+    width: 360px; 
+    height: 220px;
+    margin-bottom: 50px;
+}
+#gallery a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.gallery-section h2,.carousel-section h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+.carousel__slide{
+    text-align: center;
+    overflow: hidden;
+}
+.carousel__dots{
+    display: none;
+}
+.carousel__nav .is-prev svg{
+    display: none;
+}
+
+.carousel__nav{
+    position: relative;
+}
+.carousel__nav .is-prev{
+    background: url('../images/logo.png') center/cover no-repeat;
+    left: 45%!important;
+}
+.carousel__nav .is-next{
+    right: 45%!important;
+}
+ .carousel__button{
+    position: absolute;
+    bottom: 0;
+}
+.carousel__slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}

@@ -11,3 +11,14 @@ burger.addEventListener('click',function(e){
     // }
 
 })
+
+
+Fancybox.bind("#gallery a", {
+    groupAll : true, 
+    
+  });
+
+const myCarousel = new Carousel(document.querySelector(".carousel"), {
+    'center' : true,
+
+  });

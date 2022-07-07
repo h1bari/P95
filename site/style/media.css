@@ -21,6 +21,11 @@
         display: block;
     }
 }
+@media screen and (max-width: 786px) {
+    #gallery a{
+        width: 100%;
+    }
+}
 @media screen and (max-width: 768px) {
     .form-block{
         width: 100%;

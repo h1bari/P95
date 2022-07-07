@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/media.css">
     <script defer src="./script/main.js"></script>
@@ -34,9 +36,62 @@
                     </ul>
                 </nav>
             </header>
-            <h1>Galery</h1>
+            
         </div>
     </section>
-</body>
 
+    <section class="gallery-section">
+        <h2>Galery</h2>
+        <div class="container">
+            <div id="gallery">
+                <a href="./images/1.jpg" class="animate__animated animate__bounce">
+                  <img src="./images/1.jpg" />
+                </a>
+                <a href="./images/2.jpg" class="animate__animated animate__bounce">
+                    <img src="./images/2.jpg" />
+                </a>
+                <a href="./images/3.jpg" class="animate__animated animate__bounce">
+                    <img src="./images/3.jpg" />
+                </a>
+                <a href="./images/1.jpg" class="animate__animated animate__bounce">
+                    <img src="./images/1.jpg" />
+                  </a>
+                  <a href="./images/2.jpg" class="animate__animated animate__bounce">
+                      <img src="./images/2.jpg" />
+                  </a>
+                  <a href="./images/3.jpg" class="animate__animated animate__bounce">
+                      <img src="./images/3.jpg" />
+                  </a>
+              </div>
+        </div>
+    </section>
+
+    <section class="carousel-section">
+        <div class="container">
+            <h2>Carousel</h2>
+            <div class="carousel">
+                <div class="carousel__slide"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/61s3BwuD_ek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="carousel__slide"><img src="./images/2.jpg" /></div>
+                <div class="carousel__slide"><img src="./images/1.jpg" /></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="map-section">
+        <div class="container">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d308.6080575062961!2d30.531426708798396!3d50.437231950218894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf62e10553a5%3A0x16fb6806dac23859!2sWhai%20Thai%20Asian%20Bistro!5e0!3m2!1sru!2sua!4v1657205733376!5m2!1sru!2sua" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <ul>
+        <li><a href="tel:+380961234567">+380961234567</a></li>
+        <li><a href="mailto:testemail@gmail.com">testemail@gmail.com</a></li>
+    </ul>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+</body>
 </html>
